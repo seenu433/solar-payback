@@ -1,0 +1,4 @@
+{
+    "azureFunctions.deploySubpath": "api/bin/Release/net6.0/publish",
+    "azureFunctions.projectLanguage": "C#"
+}
