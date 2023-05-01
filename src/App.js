@@ -108,32 +108,26 @@ function App() {
   function handleClick() {
 
     if(values.capitalLessIncentives > 50000 || values.capitalLessIncentives < 5000){
-      setValues({ ...values, ['capitalLessIncentives']: 5000 });
       values.capitalLessIncentives = 5000;
     }
 
     if(values.avgMonthlyBill > 1000 || values.avgMonthlyBill < 100){
-      setValues({ ...values, ['avgMonthlyBill']: 100 });
       values.avgMonthlyBill = 100;
     }
 
     if(values.monthlyUtilityCharges > 100){
-      setValues({ ...values, ['monthlyUtilityCharges']: 0 });
       values.monthlyUtilityCharges = 0;
     }
 
     if(values.capitalInterestRatePercent > 10){
-      setValues({ ...values, ['capitalInterestRatePercent']: 0 });
       values.capitalInterestRatePercent = 0;
     }
 
     if(values.annualRateIncreasePercent_consumption > 10){
-      setValues({ ...values, ['annualRateIncreasePercent_consumption']: 0 });
       values.annualRateIncreasePercent_consumption = 0;
     }
 
     if(values.annualRateIncreasePercent_utility > 10){
-      setValues({ ...values, ['annualRateIncreasePercent_utility']: 0 });
       values.annualRateIncreasePercent_utility = 0;
     }
 
@@ -233,10 +227,10 @@ function App() {
               environmental to economics. The web lists some of them:
               <ul>
                 <li>
-                  Solar reduces (and sometimes eliminates) elecetric bills
+                  Solar reduces (and sometimes eliminates) electric bills
                 </li>
                 <li>Solar Panels improve the value of your home</li>
-                <li>Going Solar reduecs yur carbon emissions</li>
+                <li>Going Solar reduces your carbon emissions</li>
                 <li>You can earn money back on your solar investment</li>
               </ul>
               Though we largely agree with the green aspects and the
@@ -249,7 +243,7 @@ function App() {
                   to the grid
                 </li>
                 <li>
-                  You are making an upfront investment which might yield an
+                  You are making an upfront investment which might yield a
                   return if invested
                 </li>
                 <li>
@@ -257,11 +251,11 @@ function App() {
                   roof. ex. roof upgrades
                 </li>
                 <li>
-                  Community solar projects are avaialble without installations
+                  Community solar projects are available without installations
                   and upfront cost.
                 </li>
               </ul>
-              Use this calculator to estiamte how long it will take to
+              Use this calculator to estimate how long it will take to
               break-even on your investment
             </Typography>
             <div>
