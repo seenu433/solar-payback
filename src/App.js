@@ -27,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
     width: 250,
     marginTop: theme.spacing(2)
   },
+  text: {
+    width: 100,
+    marginTop: theme.spacing(2)
+  },
   control: {
     marginTop: theme.spacing(2)
   },
@@ -429,6 +433,7 @@ function App() {
                 <TextField
                   id="standard-number"
                   type="number"
+                  className={classes.text}
                   value={values.capitalLessIncentives}
                   onChange={handleChange("capitalLessIncentives")}
                   inputProps={{
@@ -490,6 +495,7 @@ function App() {
                   id="standard-number"
                   type="number"
                   value={values.avgMonthlyBill}
+                  className={classes.text}
                   onChange={handleChange("avgMonthlyBill")}
                   inputProps={{
                     step: 1,
@@ -512,6 +518,7 @@ function App() {
                   id="standard-number"
                   type="number"
                   value={values.monthlyUtilityCharges}
+                  className={classes.text}
                   onChange={handleChange("monthlyUtilityCharges")}
                   inputProps={{
                     step: 1,
